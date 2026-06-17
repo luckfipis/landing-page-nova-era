@@ -8,7 +8,7 @@ Landing page responsiva desenvolvida com **HTML5, CSS3 e JavaScript puro (Vanill
 
 ## 🔗 Demo
 
-> Adicione aqui o link após o deploy (Vercel/Netlify/GitHub Pages).
+> https://luckfipis.github.io/landing-page-nova-era/
 
 ## ✨ Funcionalidades
 
