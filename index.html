@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nova Era — soluções digitais para impulsionar o seu negócio com tecnologia de ponta.">
+  <title>Nova Era | Soluções Digitais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:,">
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header class="header" id="header">
+    <div class="container header__container">
+      <a href="#hero" class="logo">Nova<span>Era</span></a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+        <a href="#contato" class="btn btn--primary nav__cta">Fale Conosco</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+        <span class="menu-toggle__bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__content fade-in">
+          <span class="badge">🚀 Inovação que transforma</span>
+          <h1 class="hero__title">
+            Transforme sua ideia em um <span class="highlight">produto digital de sucesso</span>
+          </h1>
+          <p class="hero__subtitle">
+            Desenvolvemos sites, aplicativos e sistemas sob medida para empresas que querem crescer com tecnologia de qualidade e atendimento humano.
+          </p>
+          <div class="hero__actions">
+            <a href="#contato" class="btn btn--primary">Solicitar Orçamento</a>
+            <a href="#servicos" class="btn btn--ghost">Conhecer Serviços</a>
+          </div>
+
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__number" data-count="120">0</span>
+              <span class="stat__label">Projetos Entregues</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-count="98">0</span>
+              <span class="stat__label">% de Satisfação</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-count="35">0</span>
+              <span class="stat__label">Clientes Ativos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual fade-in">
+          <div class="hero__card hero__card--main">
+            <div class="hero__card-dot dot--red"></div>
+            <div class="hero__card-dot dot--yellow"></div>
+            <div class="hero__card-dot dot--green"></div>
+            <div class="hero__card-line"></div>
+            <div class="hero__card-line short"></div>
+            <div class="hero__card-line"></div>
+          </div>
+          <div class="hero__card hero__card--float">
+            <span>✓ Deploy concluído</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== LOGOS / SOCIAL PROOF ===== -->
+    <section class="logos">
+      <div class="container">
+        <p class="logos__title">Empresas que confiam no nosso trabalho</p>
+        <div class="logos__grid">
+          <span>ACME Corp</span>
+          <span>Bright Tech</span>
+          <span>Vortex Labs</span>
+          <span>Norte Digital</span>
+          <span>Plenitude</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="about" id="sobre">
+      <div class="container about__container">
+        <div class="about__visual fade-in">
+          <div class="about__box"></div>
+        </div>
+        <div class="about__content fade-in">
+          <span class="section-tag">Sobre nós</span>
+          <h2 class="section-title">Tecnologia com propósito, resultados reais</h2>
+          <p class="section-text">
+            Somos uma equipe apaixonada por resolver problemas através da tecnologia. Unimos design, performance e estratégia para criar produtos digitais que realmente fazem a diferença no seu negócio.
+          </p>
+          <ul class="about__list">
+            <li>✔️ Times multidisciplinares e dedicados</li>
+            <li>✔️ Processos ágeis e transparentes</li>
+            <li>✔️ Suporte contínuo pós-entrega</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="services" id="servicos">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">O que fazemos</span>
+          <h2 class="section-title">Nossos Serviços</h2>
+          <p class="section-text">Soluções completas para cada etapa da sua jornada digital.</p>
+        </div>
+
+        <div class="services__grid">
+          <article class="card fade-in">
+            <div class="card__icon">💻</div>
+            <h3 class="card__title">Desenvolvimento Web</h3>
+            <p class="card__text">Sites e sistemas responsivos, rápidos e otimizados para conversão e SEO.</p>
+          </article>
+
+          <article class="card fade-in">
+            <div class="card__icon">📱</div>
+            <h3 class="card__title">Aplicativos Mobile</h3>
+            <p class="card__text">Apps nativos e híbridos para iOS e Android com foco em experiência do usuário.</p>
+          </article>
+
+          <article class="card fade-in">
+            <div class="card__icon">🎨</div>
+            <h3 class="card__title">UI/UX Design</h3>
+            <p class="card__text">Interfaces intuitivas, modernas e centradas no comportamento real dos usuários.</p>
+          </article>
+
+          <article class="card fade-in">
+            <div class="card__icon">⚙️</div>
+            <h3 class="card__title">Automação de Processos</h3>
+            <p class="card__text">Reduza custos e ganhe tempo automatizando tarefas repetitivas da sua empresa.</p>
+          </article>
+
+          <article class="card fade-in">
+            <div class="card__icon">☁️</div>
+            <h3 class="card__title">Infraestrutura em Nuvem</h3>
+            <p class="card__text">Hospedagem escalável, segura e com alta disponibilidade para o seu projeto.</p>
+          </article>
+
+          <article class="card fade-in">
+            <div class="card__icon">📈</div>
+            <h3 class="card__title">Consultoria Digital</h3>
+            <p class="card__text">Estratégias personalizadas para acelerar o crescimento digital da sua marca.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="testimonials" id="depoimentos">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Depoimentos</span>
+          <h2 class="section-title">O que nossos clientes dizem</h2>
+        </div>
+
+        <div class="testimonials__grid">
+          <article class="testimonial fade-in">
+            <p class="testimonial__text">"A equipe entregou muito além do esperado. Nosso site ficou rápido, bonito e as vendas aumentaram em poucas semanas."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">MS</div>
+              <div>
+                <strong>Mariana Souza</strong>
+                <span>CEO, Bright Tech</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial fade-in">
+            <p class="testimonial__text">"Profissionalismo do início ao fim. Comunicação clara e prazos cumpridos rigorosamente. Recomendo de olhos fechados."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">RL</div>
+              <div>
+                <strong>Rafael Lima</strong>
+                <span>Fundador, Vortex Labs</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial fade-in">
+            <p class="testimonial__text">"O suporte pós-entrega é excelente. Sempre que precisamos de ajustes, fomos atendidos rapidamente."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">CA</div>
+              <div>
+                <strong>Carla Almeida</strong>
+                <span>Gerente, Norte Digital</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+      <div class="container cta__container fade-in">
+        <h2>Pronto para dar o próximo passo?</h2>
+        <p>Vamos conversar sobre como podemos transformar sua ideia em realidade.</p>
+        <a href="#contato" class="btn btn--light">Solicitar Orçamento Gratuito</a>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="contact" id="contato">
+      <div class="container contact__container">
+        <div class="contact__info fade-in">
+          <span class="section-tag">Contato</span>
+          <h2 class="section-title">Vamos conversar?</h2>
+          <p class="section-text">Preencha o formulário ou entre em contato direto pelos canais abaixo.</p>
+
+          <ul class="contact__list">
+            <li>📧 contato@novaera.com.br</li>
+            <li>📞 (11) 4002-8922</li>
+            <li>📍 São Paulo, SP — Brasil</li>
+          </ul>
+        </div>
+
+        <form class="contact__form fade-in" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Nome completo</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome">
+            <span class="form-error" id="nameError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com">
+            <span class="form-error" id="emailError"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Telefone (opcional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000">
+          </div>
+
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" placeholder="Conte um pouco sobre seu projeto..."></textarea>
+            <span class="form-error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary form-submit">
+            <span class="btn-text">Enviar Mensagem</span>
+          </button>
+
+          <p class="form-success" id="formSuccess">✅ Mensagem enviada com sucesso! Entraremos em contato em breve.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__brand">
+        <a href="#hero" class="logo">Nova<span>Era</span></a>
+        <p>Soluções digitais que transformam ideias em resultados.</p>
+      </div>
+
+      <div class="footer__links">
+        <h4>Navegação</h4>
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </div>
+
+      <div class="footer__links">
+        <h4>Social</h4>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+        <a href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; <span id="year"></span> NovaEra. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
